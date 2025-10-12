@@ -70,8 +70,8 @@ pip install -r requirements.txt
 # Copy example env file
 cp .env.example .env
 
-# Edit .env and add your OpenAI API key
-# OPENAI_API_KEY=sk-your-key-here
+# Edit .env and add your HuggingFace token
+# HUGGINGFACE_TOKEN=your-key-here
 ```
 
 ### Step 4: Run the Backend
