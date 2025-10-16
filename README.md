@@ -153,7 +153,6 @@ code-review-assistant/
 ├── .env.example          # Environment variables template
 ├── reviews.db            # SQLite database (created automatically)
 ├── README.md             # This file
-└── demo_video.mp4        # Demo video (create this)
 ```
 
 ## LLM Integration
@@ -221,8 +220,8 @@ curl -X POST http://localhost:8000/api/review \
 
 ## Troubleshooting
 
-### "OpenAI API Key not found"
-- Ensure `.env` file exists with valid `OPENAI_API_KEY`
+### "Hugging Face token not found"
+- Ensure `.env` file exists with valid `HUGGINGFACE_TOKEN`
 - Restart the backend after adding the key
 
 ### "CORS Error" in browser
